@@ -1,0 +1,59 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            
+"source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "U.S. airports rumble back to life after FAA computer outage - Reuters",
+    "description": "U.S. flights were slowly beginning to resume departures and a ground stop was lifted after the Federal Aviation Administration (FAA) scrambled to fix a system outage overnight that had forced a halt to all U.S. departing flights.",
+    "url": "https://www.reuters.com/business/aerospace-defense/us-faa-says-flight-personnel-alert-system-not-processing-updates-after-outage-2023-01-11/",
+    "urlToImage": "https://www.reuters.com/resizer/ECkUCtyMRySzLXiFFXDjKnMXXZ4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ZBG2QR7ZV5IO5LPCFZXOLGPM3U.jpg",
+    "publishedAt": "2023-01-11T14:31:00Z",
+    "content": "WASHINGTON, Jan 11 (Reuters) - U.S. flights were slowly beginning to resume departures and a ground stop was lifted after the Federal Aviation Administration (FAA) scrambled to fix a system outage ov… [+5142 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": null,
+            "title": "Archer takes three wickets in impressive comeback",
+            "description": "Jofra Archer takes three wickets as the England bowler makes an impressive return to competitive cricket after 17 months out with injury.",
+            "url": "http://www.bbc.co.uk/sport/cricket/64227297",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/BB3F/production/_128253974_spcs8573.jpg",
+            "publishedAt": "2023-01-10T18:07:28.6843289Z",
+            "content": "Archer's last match was a T20 for Sussex 541 days ago\r\nJofra Archer took three wickets as the England bowler made an impressive return to competitive cricket after 17 months out with injury.\r\nArcher … [+1754 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
