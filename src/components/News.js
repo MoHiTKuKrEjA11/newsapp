@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import Newsitem from './Newsitem'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
-import InfiniteScroll from "react-infinite-scroll-component";
+
 
 const News =(props)=> {
 const [articles, setArticles] = useState([])
@@ -16,7 +16,7 @@ const [totalResults, setTotalResults] = useState(0)
 
   const updateNews = async()=> {
     props.setProgress(10);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=28bf8c8b9fb64739b9d8380aa09f832e&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true)
     let data = await fetch(url);
     props.setProgress(30);
@@ -35,7 +35,7 @@ const [totalResults, setTotalResults] = useState(0)
   }, [])
 
   const fetchMoreData = async() => {
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=28bf8c8b9fb64739b9d8380aa09f832e&page=${page+1}&pageSize=${props.pageSize}`;
     setPage(page+1)
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -47,12 +47,7 @@ const [totalResults, setTotalResults] = useState(0)
       <>
         <h1 className='text-center' style={{ margin: '35px 0px',marginTop:'90px' }}>NewsMonkey-Top {capitalizeFirstLetter(props.category)} Headlines</h1>
         {loading && <Spinner/>}
-        <InfiniteScroll
-          dataLength={articles.length}
-          next={fetchMoreData}
-          hasMore={articles.length<totalResults}
-          loader={<Spinner/>}
-        >
+        
           <div className="container">
           <div className="row">
             {articles.map((element) => {
@@ -62,7 +57,7 @@ const [totalResults, setTotalResults] = useState(0)
             })}
           </div>
           </div>
-          </InfiniteScroll>
+          
       </>
     )
   }
